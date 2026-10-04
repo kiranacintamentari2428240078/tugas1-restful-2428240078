@@ -1,6 +1,6 @@
 # Tugas 1 RESTful API - Alumni
 
-# Identitas
+## Identitas
 - Nama: Kirana Cinta Mentari
 - NIM: 2428240078
 - Kelas: SI5B
@@ -8,17 +8,17 @@
 - Link Vercel: https://tugas1-restful-2428240078.vercel.app
 - Link GitHub: https://github.com/USERNAME/tugas1-restful-2428240078
 
-# Deskripsi
+## Deskripsi
 RESTful API untuk melakukan pengelolaan data alumni kampus menggunakan Express.js. Seluruh response berformat JSON dan data disimpan dalam array di memori.
 
-# Teknologi
+## Teknologi
 - Node.js
 - Express.js
 - nodemon (dev)
 - Postman
 - Vercel
 
-# Endpoint
+## Endpoint
 
 | Method | Endpoint | Keterangan |
 |---|---|---|
@@ -30,7 +30,7 @@ RESTful API untuk melakukan pengelolaan data alumni kampus menggunakan Express.j
 | PUT | /alumni/:id | Mengubah seluruh data alumni |
 | DELETE | /alumni/:id | Menghapus alumni |
 
-# Field Data
+## Field Data
 
 | Field | Tipe | Wajib |
 |---|---|---|
@@ -43,3 +43,6 @@ RESTful API untuk melakukan pengelolaan data alumni kampus menggunakan Express.j
 `id` dibuat otomatis oleh server.
 
 # Cara Menjalankan Lokal
+
+## github
+https://github.com/kiranacintamentari2428240078/tugas1-restful-2428240078
