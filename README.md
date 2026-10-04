@@ -44,5 +44,13 @@ RESTful API untuk melakukan pengelolaan data alumni kampus menggunakan Express.j
 
 # Cara Menjalankan Lokal
 
+Install dependency:
+
+```bash
+npm install
+
 ## github
 https://github.com/kiranacintamentari2428240078/tugas1-restful-2428240078
+
+## vercel
+https://tugas1-restful-2428240078.vercel.app/
