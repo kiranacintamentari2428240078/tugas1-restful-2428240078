@@ -133,7 +133,7 @@ app.put('/alumni/:id', (req, res) => {
   });
 });
 
-// DELETE /alumni/2
+// DELETE /alumni/3
 app.delete('/alumni/:id', (req, res) => {
   const id = parseInt(req.params.id);
   const index = alumni.findIndex((a) => a.id === id);
@@ -147,14 +147,6 @@ app.delete('/alumni/:id', (req, res) => {
     });
   }
 
-  // middleware catch-all 404 (paling bawah, setelah semua route)
-app.use((req, res) => {
-  res.status(404).json({
-    status: 'error',
-    message: 'Endpoint tidak ditemukan',
-    data: null,
-  });
-});
 
   alumni.splice(index, 1); // hapus dari array
 
@@ -171,6 +163,15 @@ app.use((err, req, res, next) => {
   res.status(400).json({
     status: 'error',
     message: 'Body  json rusak atau tidak valid',
+    data: null,
+  });
+});
+
+  // middleware catch-all 404 (paling bawah, setelah semua route)
+app.use((req, res) => {
+  res.status(404).json({
+    status: 'error',
+    message: 'Endpoint tidak ditemukan',
     data: null,
   });
 });
