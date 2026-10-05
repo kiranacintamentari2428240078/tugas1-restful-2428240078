@@ -1,8 +1,8 @@
 {
   "name": "tugas1-restful-2428240078",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tugas 1 RESTful API Express.js - Topik 18 - Kampus: Alumni",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
