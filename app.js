@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
     endpoints: "/alumni",
   });
 });
-
+ 
 // GET /alumni menampilkan seluruh data alumni
 // GET /alumni
 app.get('/alumni', (req, res) => {
