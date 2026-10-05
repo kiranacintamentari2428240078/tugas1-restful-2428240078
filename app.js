@@ -63,7 +63,7 @@ app.post('/alumni', (req, res) => {
     return res.status(400).json({
       status: 'error',
       message: 'fields wajib diisi',
-      data: null
+      data: null,
     });
   }
 
