@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     nama: "Kirana Cinta Mentari",
     nim: "2428240078",
     nomorTopik: 18,
-    endpoints: "/alumni, /alumni/:tahunlulus",
+    endpoints: "/alumni",
   });
 });
 
